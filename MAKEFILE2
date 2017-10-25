@@ -1,0 +1,10 @@
+all: calc2
+
+calc2.tab.c calc2.tab.h:calc2.y
+	bison -d calc2.y
+
+lex.yy.c: calc2.l calc2.tab.h
+	flex calc2.l
+
+calc2: lex.yy.c calc2.tab.c calc2.tab.h
+	gcc -o calc2 calc2.tab.c lex.yy.c

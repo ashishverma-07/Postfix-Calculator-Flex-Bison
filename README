@@ -1,0 +1,15 @@
+Team members:
+1. Ashish Verma, B00665794
+
+2. Shubham Gupta, B00664009
+
+INSTRUCTIONS:
+1. To exucute make files, type 
+	a) make -f MAKEFILE1 to create makefile for question 1
+	b) make -f MAKEFILE2 to create makefile for question 2
+
+2. To run type 
+	a) ./calc1 for ques 1
+	b) ./calc2 for ques 2
+
+THIS CODE WAS TESTED ON BINGSUNS.

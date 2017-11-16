@@ -1,8 +1,5 @@
 Team members:
 1. Ashish Verma, B00665794
-
-2. Shubham Gupta, B00664009
-
 INSTRUCTIONS:
 1. To exucute make files, type 
 	a) make -f MAKEFILE1 to create makefile for question 1
